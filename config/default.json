@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://ananya:ananya@devconnectcluster.mzcu7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "6031defbcb2d0da006be",
+  "githubSecret": "fe2e10cc952c9163d59c41a83b89a85cac3f7749"
 }

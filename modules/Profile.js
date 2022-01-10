@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const ProfileSchema = new Schema({
     user: {
         type: Schema.Types.ObjectId,
-        ref: 'users'
+        ref: 'user'
     },
     handle: {
         type: String,
@@ -49,11 +49,11 @@ const ProfileSchema = new Schema({
                 type: String
             },
             from: {
-                type: Date,
+                type: String,
                 required: true
             },
             to: {
-                type: Date
+                type: String
             },
             current: {
                 type: Boolean,
@@ -79,7 +79,7 @@ const ProfileSchema = new Schema({
                 required: true
             },
             from: {
-                type: Date,
+                type: String,
                 required: true
             },
             to: {
