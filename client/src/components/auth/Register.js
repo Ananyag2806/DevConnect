@@ -21,7 +21,7 @@ const Register = () => {
 		} else {
 			console.log('Success');
 
-			// This is going to happen in
+			// This is going to happen in Redux
 			// 	const newUser = {
 			// 		name,
 			// 		email,
